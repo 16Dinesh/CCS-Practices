@@ -1,0 +1,91 @@
+* {
+    font-family: "courier new";
+    background-color: 	#f1f8fb;
+}
+
+.logo {
+    color: #b92b27;
+}
+
+.logo::first-letter {
+    color: #333333;
+}
+
+h3
+h1 {
+    background-color: #b92b27;
+}
+
+#login {
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#signup {
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+.upb {
+    color: #fbfbfb ;
+    background-color: #07789b;
+}
+
+.downb {
+    background-color: #aa2200;
+    color: white;
+}
+
+p a {
+    color: #2b6dad;
+    /* background-color: yellow; */
+}
+
+.names {
+    /* background-color: #eeeeee; */
+}
+
+nav a {
+    color: #2b6dad;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+div > input {
+    background-color: #fbfbfb;
+    color: #333333;
+}
+
+.upb:hover {
+    background-color: red;
+}
+
+.downb:hover {
+    background-color: black;
+}
+
+.upb:active {
+    background-color: #ff0000;
+}
+
+.downb:active {
+    background-color: #000000;
+}
+
+/* main::selection {
+    background-color: rgb(225, 216, 159);
+} */
+
+.head3:hover  {
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.follow:hover {
+    text-decoration: none;
+}
