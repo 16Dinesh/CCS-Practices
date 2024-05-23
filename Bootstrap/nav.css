@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+.container {
+    color: white;
+}
+#down {
+    position:relative;
+    left: 30px;
+    bottom: 5px;
+}
+
+#up {
+    position: relative;
+    left: -20px;
+    bottom: 5px;
+}
+
+#black2 {
+    position: relative;
+    bottom: 17px;
+    left: 100px;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 580px;
+    width: 300px;
+    
+}
+
+.black1 {
+    height: 290px;
+    width: 296px;
+}
+
+img {
+    border-radius: 25px 25px 0px 0px  ;
+    height: 290px;
+    width: 295px;
+}
+
+.levels {
+    display: inline-block;
+}
+
+#voteup {
+    position: relative;
+    left: -20px;
+    top: 10px;
+}
+
+#votedown {
+    position:relative;
+    left: 30px;
+    top: 10px;
+}
+
+#white1 {
+    position: relative;
+    bottom: 42px;
+    left: 200px;
+    text-align: center;
+}
+
+
+
+#black1 {
+    text-align: center;
+}
+
+#wup {
+    position: relative;
+    left: -22px;
+    top: 32px;
+}
+
+#wdown {
+    position: relative;
+    left: 25px;
+    top: 32px;
+}
