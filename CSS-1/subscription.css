@@ -1,0 +1,108 @@
+
+
+
+.boxes {
+    display: flex;
+    border: 2px solid black;
+    /* margin: 30px; */
+    vertical-align: top; /* Align boxes to the top */
+    justify-content: space-around;
+    align-content: flex-start;
+    text-align: center; /* Center text horizontally */
+    flex-wrap: wrap;
+    border: hidden;
+}
+
+body {
+    max-width: 1500px;
+    max-height: 3000px;
+}
+
+.free {
+    background-color: #e0e0e0; 
+    border: 1px solid black ;
+    border-radius: 5px;
+    margin: 30px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.pro {
+    background-color: #ffc107; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    height: 250px;
+    width: 250px;
+}
+
+.enter {
+    background-color: #e0e0e0; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    height: 250px;
+    width: 250px;
+}
+
+
+/* Style for the headings */
+.subscription-box h3 {
+    font-size: 24px; /* Increase the font size for headings */
+    margin-top: 10px; /* Add some space above headings */
+}
+
+/* Style for the pricing */
+.subscription-box h3 b {
+    font-size: 18px; /* Adjust font size for pricing */
+}
+
+/* Style for the feature list */
+.subscription-box p {
+    font-size: 14px; /* Adjust font size for feature list */
+}
+
+/* Style for the buttons */
+.paid {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Add padding to the button */
+    border-radius: 4px; /* Add border-radius to the button */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for buttons */
+.subscription-box button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+ 
+.subscription-box button:active {
+    background-color: red;
+}
+
+.signupfree {
+    background-color: #e0e0e0; /* Button background color */
+    color: black; /* Button text color */
+    border: 0.5px solid black ; /* Remove button border */
+    padding: 8px 16px; /* Add padding to the button */
+    border-radius: 4px; /* Add border-radius to the button */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.line {
+    border: 1px solid black; 
+    width: 100%;
+}
+
+/* .line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    border: 1px solid black; 
+} */
