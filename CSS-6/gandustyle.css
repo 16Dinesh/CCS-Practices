@@ -1,0 +1,45 @@
+.details {
+    height: 480px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:  #B3F7D7
+    ;
+    
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    border-radius:  24px 24px 0 0;
+}
+
+ h1 , h2 {
+    text-align: center;
+    color: black;
+
+}
+
+h3 {
+    background-color:  #B3F7D7;
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    background-color:  #B3F7D7;
+}
+
+#boobie {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+* {
+    background-color: #F7B3D7;
+}
+
+span {
+    color: #B3F7D7 ;
+}
