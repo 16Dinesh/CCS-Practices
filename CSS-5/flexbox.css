@@ -1,0 +1,42 @@
+#container {
+    height: 400px;  
+    width: 400px;
+    font-size: 50px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#navbar {
+    height: 50px;
+    width: 900px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: lightcoral;
+}
+
+.option {
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 50px; 
+
+}
